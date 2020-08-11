@@ -1,9 +1,10 @@
+
 /* Navigation */
+
 .navbar {
     position: relative;
     z-index: 1;
 }
-
 
 .navbar-brand {
     font-family: 'Viga', sans-serif;
@@ -16,6 +17,7 @@
 
 
 /* Jumbotron */
+
 .jumbotron {
     height: 480px;
     background-image: url(../img/jumbotron-bg.jpg);
@@ -23,9 +25,11 @@
     text-align: center;
     position: relative;
 }
+
 .jumbotron .jtron {
     z-index: 1;
 }
+
 .jumbotron::after {
     content: '';
     display: block;
@@ -35,6 +39,7 @@
     position: absolute;
     bottom: 0;
 }
+
 .jtron h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     margin-top: 100px;
@@ -42,8 +47,8 @@
     font-weight: normal;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     font-size: 48px;
-
 }
+
 .jtron h1 span {
     font-weight: bold;
 
@@ -59,18 +64,21 @@
     padding: 30px;
 
 }
+
 .info-panel img {
     width: 80px;
     height: 80px;
     margin-right: 20px ;
     margin-bottom: 20px;
 }
+
 .info-panel h4 {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     
 }
+
 .info-panel p {
     font-size: 14px;
     font-weight: 200;
@@ -83,12 +91,14 @@
     margin-top: 80px;
     text-align: center;
 }
+
 .info-content h3 {
     font-size: 52px;
     font-weight: 200;
     text-transform: uppercase;
     margin-top: 30px;
 }
+
 .info-content h3 span {
     font-weight: bold;
 }
@@ -101,9 +111,11 @@
 }
 
 /* Testimonial */
+
 .testimonial {
     margin-top: 80px;
 }
+
 .testimonial h5 {
     text-align: center;
     font-weight: 200;
@@ -128,8 +140,8 @@
     font-weight: bold;
     font-style: normal;
 }
-.testimonial figure figcaption {
 
+.testimonial figure figcaption {
     text-align: center;
 }
 
@@ -137,40 +149,53 @@
     margin-top: -6px;
     font-size: 12px;
     color: #acacac;
-    
 }
 
-/* footer */
+/* Footer */
 
 footer.footer {
     margin-top: 100px;
 }
+
 footer.footer p {
-    font-size: 18px;
+    font-size: 14px;
     color: #acacac;
 }
+
+footer.footer span {
+    font-family:monospace;
+    font-weight: bold;
+}
+
 footer.footer p a{
     color: #acacac;
 }
+
 footer.footer p a:hover{
     color: #acacac;
     text-decoration: none;
 }
 
 
+
 /* Utils */
+
 .btn-cr {
     font-family: 'Fira Sans', sans-serif;
     border-radius: 40px;
 }
 
 /* Desktop */
+
 @media (min-width: 992px) { 
+
     /* navigation */
+
     .nav-link, .navbar-brand{
         color: white !important;        
         text-shadow: 1px 1px rgba(0, 0, 0, 0.7) ;
     }
+
     .nav-link {
         margin-right: 10px;
         text-transform: uppercase;
@@ -187,26 +212,31 @@ footer.footer p a:hover{
         border-bottom: 3px solid #007bff ;
     }
 
-    /* .nav-link:hover {
-        border-bottom: 3px solid #0d63bc ;
-    } */
-
     /* jumbotron desktop */
+
     .jumbotron {
         height: 680px;
         margin-top: -75px;
     }
+    
     .jtron h1 {
         margin-top: 150px;
         font-size: 62px;
     }
 
+    /* info content desktop */
     .info-content {
         margin-top: 100px;
         text-align: left;
     }
 
+    /* testimonial desktop */
     .testimonial h5 {
         font-size: 32px;
+    }
+
+    /* Footer desktop */
+    footer.footer p {
+        font-size: 18px;
     }
  }
