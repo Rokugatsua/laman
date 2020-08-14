@@ -194,8 +194,7 @@ article > footer > .user > .contribute-user > h1, article > footer > .user > .co
   height: 30px;
   margin: auto;
   padding: auto;
- 
-  background-image: url(../images/icon-share.svg);  /* hardcode to change url path */
+  background-image: url("../images/icon-share.svg");
   background-color: #ecf2f8;
   background-repeat: no-repeat;
   background-position: center;
